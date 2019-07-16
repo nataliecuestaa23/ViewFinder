@@ -72,7 +72,7 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="frC-zD-2gl">
                             <connections>
                                 <action selector="tableiew:" destination="vIn-rf-VSG" id="dIo-m4-oxC"/>
-                                <segue destination="YHD-km-bMu" kind="show" id="jdR-xS-FNh"/>
+                                <segue destination="YHD-km-bMu" kind="show" id="ndE-30-75s"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -100,9 +100,6 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <segue destination="YHD-km-bMu" kind="show" id="oVK-aN-Tku"/>
-                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6NL-ht-8ZP">
                                 <rect key="frame" x="65" y="591" width="54" height="30"/>
