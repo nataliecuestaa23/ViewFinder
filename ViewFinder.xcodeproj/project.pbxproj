@@ -12,6 +12,9 @@
 		18A809C522DD1A5400196F49 /* ViewFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18A809C322DD1A5400196F49 /* ViewFinder.xcdatamodeld */; };
 		18A809C722DD1A5500196F49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A809C622DD1A5500196F49 /* Assets.xcassets */; };
 		18A809CA22DD1A5500196F49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A809C822DD1A5500196F49 /* LaunchScreen.storyboard */; };
+		18A809D422DD2F1800196F49 /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A809D322DD2F1800196F49 /* AddPhotoViewController.swift */; };
+		18A809D622DD415100196F49 /* PostTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A809D522DD415100196F49 /* PostTableViewController.swift */; };
+		18E77D1122DE6B2200CE8E53 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E77D1022DE6B2200CE8E53 /* PhotoDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		18A809C622DD1A5500196F49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18A809C922DD1A5500196F49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18A809CB22DD1A5500196F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A809D322DD2F1800196F49 /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
+		18A809D522DD415100196F49 /* PostTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewController.swift; sourceTree = "<group>"; };
+		18E77D1022DE6B2200CE8E53 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PhotoDetailViewController.swift; path = ../../PhotoDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +60,11 @@
 		18A809BB22DD1A5400196F49 /* ViewFinder */ = {
 			isa = PBXGroup;
 			children = (
+				18A809D322DD2F1800196F49 /* AddPhotoViewController.swift */,
 				18A809BC22DD1A5400196F49 /* AppDelegate.swift */,
 				18A809C022DD1A5400196F49 /* Main.storyboard */,
+				18E77D1022DE6B2200CE8E53 /* PhotoDetailViewController.swift */,
+				18A809D522DD415100196F49 /* PostTableViewController.swift */,
 				18A809C622DD1A5500196F49 /* Assets.xcassets */,
 				18A809C822DD1A5500196F49 /* LaunchScreen.storyboard */,
 				18A809CB22DD1A5500196F49 /* Info.plist */,
@@ -136,6 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				18A809C522DD1A5400196F49 /* ViewFinder.xcdatamodeld in Sources */,
+				18A809D622DD415100196F49 /* PostTableViewController.swift in Sources */,
+				18A809D422DD2F1800196F49 /* AddPhotoViewController.swift in Sources */,
+				18E77D1122DE6B2200CE8E53 /* PhotoDetailViewController.swift in Sources */,
 				18A809BD22DD1A5400196F49 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
